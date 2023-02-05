@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abel Nsukwini</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/08bf96ba2f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        
+                        <li><a href="#portifolio">Portifolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                           
+                
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+            
+        </nav>
+        <div class="header-text">
+            <p>Software Developer and Machine learning enthusiastic</p>
+            <h1>Hi, I'm <span>Abel Nsukwini</span><br>from Bulawayo Zimbabwe</h1>
+        </div>
+    </div>
+
+    
+</div> 
+    
+<!----------------------------------------about-------------------------------------------------------------------> 
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me </h1>
+                <p> I am a 24 years old recent Computer Science graduate with great determination and<br>enthusiastic about cloud technology and machine learning . I have comprehensive<br>technicial skills with the ability to understand complex data and devise new IT<br>systems. I also possess extensive knowledge of programming and maintenance of <br>software and hardware and all aspects in the information and communication <br>technology. Seeking a role in a challenging environment at a reputable company.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                    <p class="tab-links"onclick="opentab('certificates')">Certificates</p>
+                
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                   <ul>
+                       <li><span>Software Development</span><br>Python<br>Html and Css<br>JavaScript<br>Figma<br>Webflow<br>Git</li>
+                       <li><span>Cloud</span><br>AWS CLI, SDK, CDK and Cloud Formation<br>Linux Commands</li>
+                       <li><span>Machine Learning</span><br>Tensorflow<br>Numpy<br>Scikitlearn<br>Pandas<br>Matplotlib</li>  
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                   <ul>
+                       <li><span>24/01/2021 - 24/12/2021 : National Railways of Zimbabwe</span><br>Intern: Software developer and IT technician </li>
+                       <li><span>10/10/2021 - 07/01/2022  : Tsikimas Solutions(Remote)</span><br>Intern Junior Frontend Developer</li>
+                     
+                    </ul>
+                </div>
+                 <div class="tab-contents" id="education">
+                   <ul>
+                       <li><span>November 2022 : Bachelor of Science Honours Degree in Computer Science</span><br>National University of Science and Technology<br>2.1 Degree Class </li>
+                       <li><span>2017 : Advanced Level(Zimsec)</span><br>Cyrene High School<br>Passed all subjects with Maths:A, Physic: B and Chemistry:B</li>
+                       <li><span>2015 : Ordinary Level(Zimsec)</span><br>Wanezi High School<br>Passed all subjects with including maths and english with 8A's,1B and 1C</li>
+                     
+                    </ul>
+                </div>
+                 <div class="tab-contents" id="certificates">
+                   <ul>
+                       <li><span>AWS Certified Cloud Practitioner</span><br>Validation number:TW3Y6WX2T2VQQ0GF<br>Validate at: <a href="https://aws.amazon.com/verification">click here</a></li>
+                       <li><span>Introduction to Bash Shell Scripting (Coursera)</span><br>Credential ID: ACRHU4Z5LZLW<br>Validate at <a href="https://www.coursera.org/account/accomplishments/certificate/ACRHU4Z5LZLW">click here</a></li>
+                       <li><span>Data Science Math Skills (Coursera)</span><br>Credential ID: QJEWWNTLU9V6<br>Validate at <a href="https://www.coursera.org/account/accomplishments/certificate/QJEWWNTLU9V6">click here </a></li>
+                     
+                    </ul>
+                </div>
+                
+              
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+    
+<!-------------------------------------------projects------------------------------------------------------------>
+<div id="portifolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Personal Portfolio</h3>
+                    <p>This is the current website you are on built using html and css and javascript</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+             <div class="work">
+                <img src="images/work1.png">
+                 <div class="layer">
+                    <h3>Light skeleton version of bloomberg app</h3>
+                    <p>compare previous price to closing one and trigger twilio message to you when there is more than 5% increase or fall </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+             <div class="work">
+                <img src="images/work-2.png">
+                 <div class="layer">
+                    <h3>Password manager application</h3>
+                    <p>With increased cyber threats it is a great way to make and store passwords that cannot be brute forced</p>
+                    <a href="https://github.com/AbelNsukwini/Password_manager"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <a href="https://github.com/AbelNsukwini" class="btn">Visit my Github for more</a>
+    </div>
+</div>  
+    
+    
+<!----------------------------------------------Contact-----Me---------------------------------------->   
+    
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>nsukwiniabel@gmail.com</p>
+                <p>+263717752409</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/abel-nsukwini-40b05a186"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="/images/cv.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            
+        </div>
+    </div>
+    <div class="endtag">
+        <p>Impressed consider contacting me if not please still do</p>
+    </div>
+</div>  
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+            
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        
+        
+    }
+</script>
+<script>
+    
+    var sidem = document.getElementById("sidemenu");
+    function openmenu(){
+        sidem.style.right ="0";
+    }
+    function closemenu(){
+        sidem.style.right ="-200px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxJjtZy4Mo_xZkw1QfV7ZkMAMiXkXOg88e_IY6dpf0_iAc2se5hlrmWWTxoMGuEYob8/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML""
+        } ,5000)
+        form.reset()
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>   
+</html>  
